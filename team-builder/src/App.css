@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+.app {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 3%;
+  box-shadow: 0px 1px 6px 2px skyblue;
+}
+.form__container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0px 1px 6px 2px skyblue;
+  margin: 3%;
+  padding: 2% 0;
+}
+.form {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 5%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.form__button {
+  width: 100%;
+  background-color: skyblue;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 6px 2px skyblue;
+  margin: 5%;
+  padding: 3%;
+}
+.form__element {
+  padding: 2px;
+  font-size: 1.4rem;
+}
+.tm__cards {
+  width: 100%;
+  display: flex;
+  /* grid-template-columns: auto auto auto; */
+}
+.tm__container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 6px 2px skyblue;
+  padding: 5px;
+  margin: 2%;
+  width: 100%;
+}
+.teamMember__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: auto auto auto; */
+}
+.something {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 3%;
+}
