@@ -32,7 +32,7 @@ function Form(props) {
                             <option value="Designer">Designer</option>
                         </select>
                     </label>
-                    <button className="form__button">Submit</button>
+                    <button className="form__button">Submit Your Data</button>
                 </form>
             </label>
         </div>
